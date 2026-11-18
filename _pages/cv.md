@@ -11,35 +11,24 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **M.S. in Applied Artificial Intelligence**, Hanyang University, Seoul — 2025 – present
+  * Advisor: Prof. Yongjae Yoo
+* **B.S. in Artificial Intelligence**, Hanyang University ERICA, Ansan — 2021 – 2025
+  * Advisor: Prof. Yongjae Yoo
 
-Work experience
+Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Graduate Researcher**, Multimodal Intelligence and Interaction Laboratory, Hanyang University (2025 – present)
+* **Undergraduate Researcher**, Multimodal Intelligence and Interaction Laboratory, Hanyang University ERICA (2023 – 2025)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Research Projects
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Multimodal devices reflecting the cognitive traits of blind users and an AI-based global education platform (TIPA, 2025 – present)
+  * Designing multimodal interaction systems for accessibility; user studies with blind participants
+* AI algorithms and HCI systems for modeling, reproducing and teaching sensorimotor skills (NRF, 2023 – 2026)
+  * Haptic interaction design, force-feedback modeling, VR system development and user studies
+* Context-aware visual, auditory and tactile interaction authoring for immersive cultural content (KOCCA, 2024)
+  * Multimodal interaction system for more immersive video experiences
 
 Publications
 ======
@@ -47,18 +36,25 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Talks & Demos
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-Teaching
+
+Selected Awards
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+* Excellence Award, 1st Hanyang AI-dea Challenge (2026)
+* Encouragement Award, Kakao × KIISE AI Agent Competition (2025)
+* Chairman's Award, Korea Chamber of Commerce and Industry — 2024 WE-Meet Project (2025)
+* Grand Prize, Intelligent Robotics WE-Meet Project Competition (2024)
+* **Best Paper Honorable Mention**, ACM Symposium on Spatial User Interaction (SUI '24)
+* Encouragement Award, Student Idea Competition, Korea Haptics Conference (2023)
+
+Skills
 ======
-* Currently signed in to 43 different slack teams
+* **Languages:** Python, C#, C/C++, JavaScript
+* **Tools & frameworks:** Unity, ONNX, FastAPI, Vue.js, GCP, Firebase
+* **AI:** Multimodal LLMs, on-device AI, AI agents, RAG
+* **HCI:** Interaction & accessibility design, user studies, usability evaluation
+* **Hardware:** Haply Inverse3, force/torque sensors, Arduino-based actuator control
