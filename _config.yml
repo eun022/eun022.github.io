@@ -24,9 +24,9 @@ repository               : "eun022/eun022.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Eunchae Kim (김은채)"
+  name             : "Eunchae Kim"
   pronouns         : # example: "she/her"  
-  bio              : "M.S. student in Applied AI. Haptics, multimodal interaction & accessibility."
+  bio              : "Direct Ph.D. student at MILab, Hanyang University. Haptics & Human-Centered AI."
   location         : "Seoul, Korea"
   employer         : "Hanyang University"
   uri              : # URL
@@ -86,8 +86,12 @@ author:
 publication_category:
   conferences:
     title: 'International Conferences'
+  intl_demos:
+    title: 'International Conference Demonstrations'
   domestic:
     title: 'Domestic Conferences'
+  domestic_demos:
+    title: 'Domestic Conference Demonstrations'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

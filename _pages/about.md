@@ -7,13 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm **Eunchae Kim**, a master's student in the Department of Applied Artificial Intelligence at **Hanyang University**, advised by Prof. **Yongjae Yoo** at the Multimodal Intelligence and Interaction Laboratory (MILab).
+Hi, I'm **Eunchae Kim**, a direct Ph.D. student in the Department of Applied Artificial Intelligence at **Hanyang University**, advised by Prof. **Yongjae Yoo** at the Multimodal Intelligence and Interaction Laboratory (MILab).
 
 My research sits between AI and human–computer interaction. I build systems that turn information into touch, sound and speech, so people can perceive and learn things they otherwise couldn't. Recent work includes making charts and graphics accessible to blind users with multimodal LLMs and refreshable tactile pin arrays, and using amplified force-feedback to teach dexterous skills in virtual environments.
 
 Research Interests
 ======
 * Haptics & force-feedback interaction
+* Human-centered AI
 * Multimodal interaction
 * Web & data accessibility
 * AI-driven UX (multimodal LLMs, AI agents, on-device AI)
