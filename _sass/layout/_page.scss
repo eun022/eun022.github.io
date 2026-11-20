@@ -441,3 +441,17 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* Full-width content on pages without the author sidebar */
+#main.no-sidebar {
+  .archive,
+  .page {
+    @include breakpoint($large) {
+      float: none;
+      width: 100%;
+      margin-right: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
