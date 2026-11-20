@@ -11,14 +11,14 @@ redirect_from:
 
 Education
 ======
-* **Direct Ph.D. (integrated M.S./Ph.D.) in Applied Artificial Intelligence**, Hanyang University, Seoul — 2025 – present
+* **Ph.D. in Applied Artificial Intelligence** (Direct Ph.D. program), Hanyang University, Seoul — 2025 – present
   * Advisor: Prof. Yongjae Yoo
 * **B.S. in Artificial Intelligence**, Hanyang University ERICA, Ansan — 2021 – 2025
   * Advisor: Prof. Yongjae Yoo
 
 Research Experience
 ======
-* **Graduate Researcher**, Multimodal Intelligence and Interaction Laboratory, Hanyang University (2025 – present)
+* **Ph.D. Researcher**, Multimodal Intelligence and Interaction Laboratory, Hanyang University (2025 – present)
 * **Undergraduate Researcher**, Multimodal Intelligence and Interaction Laboratory, Hanyang University ERICA (2023 – 2025)
 
 Research Projects

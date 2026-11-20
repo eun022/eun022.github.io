@@ -1,0 +1,57 @@
+---
+layout: archive
+title: "Repositories"
+permalink: /repositories/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>Public repositories on <a href="https://github.com/{{ site.author.github }}">GitHub</a>.</p>
+
+<div id="repo-list">
+  <p>Loading repositories…</p>
+</div>
+
+<noscript>
+  <p>See all repositories at <a href="https://github.com/{{ site.author.github }}?tab=repositories">github.com/{{ site.author.github }}</a>.</p>
+</noscript>
+
+<style>
+  .repo-card { border: 1px solid var(--global-border-color, #ddd); border-radius: 6px; padding: 0.8em 1em; margin-bottom: 1em; }
+  .repo-card h3 { margin: 0 0 0.3em; font-size: 1.05em; }
+  .repo-card p { margin: 0.2em 0; font-size: 0.9em; }
+  .repo-meta { opacity: 0.75; font-size: 0.8em !important; }
+</style>
+
+<script>
+(function () {
+  var user = "{{ site.author.github }}";
+  var box = document.getElementById("repo-list");
+  var fallback = 'See all repositories at <a href="https://github.com/' + user + '?tab=repositories">github.com/' + user + '</a>.';
+
+  function esc(s) {
+    return String(s || "").replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  fetch("https://api.github.com/users/" + user + "/repos?per_page=100&sort=updated")
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (repos) {
+      repos = repos.filter(function (r) { return !r.fork; });
+      if (!repos.length) { box.innerHTML = "<p>" + fallback + "</p>"; return; }
+      box.innerHTML = repos.map(function (r) {
+        var meta = [];
+        if (r.language) meta.push(esc(r.language));
+        meta.push("★ " + r.stargazers_count);
+        meta.push("Updated " + new Date(r.pushed_at).toISOString().slice(0, 10));
+        return '<div class="repo-card">' +
+          '<h3><a href="' + esc(r.html_url) + '">' + esc(r.name) + '</a></h3>' +
+          (r.description ? "<p>" + esc(r.description) + "</p>" : "") +
+          '<p class="repo-meta">' + meta.join(" · ") + "</p></div>";
+      }).join("");
+    })
+    .catch(function () { box.innerHTML = "<p>" + fallback + "</p>"; });
+})();
+</script>
