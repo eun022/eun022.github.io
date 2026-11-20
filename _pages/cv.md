@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* **Ph.D. in Applied Artificial Intelligence** (Direct Ph.D. program), Hanyang University, Seoul — 2025 – present
+* **Ph.D. in Applied Artificial Intelligence**, Hanyang University, Seoul — 2025 – present
   * Advisor: Prof. Yongjae Yoo
 * **B.S. in Artificial Intelligence**, Hanyang University ERICA, Ansan — 2021 – 2025
   * Advisor: Prof. Yongjae Yoo
