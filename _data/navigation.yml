@@ -10,9 +10,6 @@ main:
   - title: "projects"
     url: /portfolio/
 
-  - title: "repositories"
-    url: /repositories/
-
   - title: "cv"
     url: /cv/
 
